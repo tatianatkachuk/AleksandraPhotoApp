@@ -201,7 +201,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl mb-1">Email</h3>
-                    <p className="text-gray-600">tatiana.tkachuk.upc@gmail.com</p>
+                    <p className="text-gray-600">adolgaia@gmail.com</p>
                   </div>
                 </div>
 
@@ -211,8 +211,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl mb-1">{t.contact}</h3>
-                    <p className="text-gray-600">+34 123 456 789</p>
-                    <p className="text-gray-600">+7 987 654 321</p>
+                    <p className="text-gray-600">+34 656 27 27 86</p>
                   </div>
                 </div>
 
@@ -221,15 +220,14 @@ export function Contact() {
                     <MapPin className="size-6 text-pink-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl mb-1">Studio</h3>
-                    <p className="text-gray-600">Barcelona, España</p>
+                    <h3 className="text-xl mb-1">Ubicación</h3>
+                    <p className="text-gray-600">Castellón de la Plana, Comunidad Valenciana</p>
                   </div>
                 </div>
               </div>
 
               {/* Map Placeholder */}
-              <div className="mt-8 bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <MapPin className="size-12 text-gray-400" />
+              <div className="mt-8 bg-gray-200 rounded-lg h-64 flex items-center justify-center" style="background-image: url(https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F3671e992ea3e41e99dd5d1cec3dddb82); background-repeat: no-repeat; background-position: center; background-size: cover;">
               </div>
             </div>
           </div>

@@ -106,8 +106,7 @@ export function FacePainting() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {Array.from({ length: 6 }).map((_, index) => (
               <div key={index} className="aspect-square overflow-hidden rounded-lg group cursor-pointer bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200">
-                <div className="w-full h-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <Palette className="size-16 text-white opacity-50" />
+                <div className="w-full h-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300" style="background-image: url(https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F41256e5c533b41b2ae3d7117fc9c9f43); background-repeat: no-repeat; background-position: center; background-size: cover;">
                 </div>
               </div>
             ))}

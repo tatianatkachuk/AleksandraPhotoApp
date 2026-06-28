@@ -13,7 +13,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Camera className="size-8 text-pink-500" />
-              <span className="text-xl font-semibold">Studio Art</span>
+              <span className="text-xl font-semibold">ADolgaia Art</span>
             </div>
             <p className="text-gray-400">
               {t.heroSubtitle}
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Studio Art. {t.allRightsReserved}</p>
+          <p>© {currentYear} ADolgaia Art. {t.allRightsReserved}</p>
         </div>
       </div>
     </footer>

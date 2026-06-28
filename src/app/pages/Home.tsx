@@ -60,7 +60,7 @@ export function Home() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl mb-6">{t.aboutTitle}</h2>
-          <p className="text-xl text-gray-700 leading-relaxed">{t.aboutText}</p>
+          <p className="text-xl text-gray-700 leading-relaxed">Soy una fotógrafa profesional de Castellón de la Plana apasionada por capturar momentos únicos. También ofrezco servicios de pintacaras para eventos infantiles y diseño gráfico personalizado. Mi objetivo es hacer que cada proyecto sea especial y memorable.</p>
         </div>
       </section>
 
