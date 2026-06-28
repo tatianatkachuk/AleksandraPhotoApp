@@ -91,7 +91,7 @@ export function Photography() {
               'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F3cf43fec074941ab80a06b3b3a9c52b6',
               'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F840f51981b7f43c18946deefbc5dd322',
               'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F421166d3a44d408b88c0a2b268179d35',
-              'https://images.unsplash.com/photo-1587090564077-c7b8f2f1249e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBjYW1lcmElMjBzdHVkaW98ZW58MXx8fHwxNzgyNjY3MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+              'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2Fde6a46e5d2594f069737cb456a2e3350',
             ].map((image, index) => (
               <div key={index} className="aspect-square overflow-hidden rounded-lg group cursor-pointer">
                 <ImageWithFallback
