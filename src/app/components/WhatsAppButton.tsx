@@ -3,7 +3,7 @@ import { X, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 // ─── Change this to Tatiana's WhatsApp number (international format, no +) ───
-const WHATSAPP_NUMBER = '34123456789';
+const WHATSAPP_NUMBER = '34656272786';
 // ─────────────────────────────────────────────────────────────────────────────
 
 const WA_ICON = (
@@ -33,7 +33,7 @@ export function WhatsAppButton() {
                 {WA_ICON}
               </div>
               <div>
-                <p className="text-white font-semibold text-sm leading-tight">Tatiana Tkachuk</p>
+                <p className="text-white font-semibold text-sm leading-tight">Aleksandra Dolgaia</p>
                 <p className="text-green-100 text-xs">{t.whatsappOnline ?? 'En línea'}</p>
               </div>
             </div>

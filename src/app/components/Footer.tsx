@@ -1,4 +1,4 @@
-import { Camera, Instagram, Facebook, Mail } from 'lucide-react';
+import { Camera, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export function Footer() {
@@ -35,25 +35,22 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{t.followMe}</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://instagram.com"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram className="size-5" />
               </a>
               <a
-                href="#"
+                href="https://facebook.com"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook className="size-5" />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
-                aria-label="Email"
-              >
-                <Mail className="size-5" />
               </a>
             </div>
           </div>
