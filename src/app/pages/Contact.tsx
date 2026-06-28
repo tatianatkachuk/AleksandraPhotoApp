@@ -172,7 +172,7 @@ export function Contact() {
                   </div>
 
                   {/* Hidden field — sends to Aleksandra's inbox */}
-                  <input type="hidden" name="to_email" value="adolgaia@gmail.com" />
+                  <input type="hidden" name="to_email" value="ArtFotoSanya@gmail.com" />
 
                   <button
                     type="submit"
@@ -201,7 +201,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl mb-1">Email</h3>
-                    <p className="text-gray-600">adolgaia@gmail.com</p>
+                    <p className="text-gray-600">ArtFotoSanya@gmail.com</p>
                   </div>
                 </div>
 
@@ -220,7 +220,7 @@ export function Contact() {
                     <MapPin className="size-6 text-pink-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl mb-1">Ubicación</h3>
+                    <h3 className="text-xl mb-1">ADolgaia Studio</h3>
                     <p className="text-gray-600">Castellón de la Plana, Comunidad Valenciana</p>
                   </div>
                 </div>
