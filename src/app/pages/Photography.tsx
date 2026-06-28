@@ -88,9 +88,9 @@ export function Photography() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeSUyMHBvcnRyYWl0JTIwc2Vzc2lvbnxlbnwxfHx8fDE3ODI2NjcwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-              'https://images.unsplash.com/photo-1519741497674-611481863552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcGhvdG9ncmFwaHklMjBlbGVnYW50fGVufDF8fHx8MTc4MjYzNDI4M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-              'https://images.unsplash.com/photo-1742522211724-3425d697bbf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBwb3J0cmFpdCUyMG91dGRvb3J8ZW58MXx8fHwxNzgyNjY3MDAzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+              'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F3cf43fec074941ab80a06b3b3a9c52b6',
+              'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F840f51981b7f43c18946deefbc5dd322',
+              'https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F421166d3a44d408b88c0a2b268179d35',
               'https://images.unsplash.com/photo-1587090564077-c7b8f2f1249e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBjYW1lcmElMjBzdHVkaW98ZW58MXx8fHwxNzgyNjY3MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
             ].map((image, index) => (
               <div key={index} className="aspect-square overflow-hidden rounded-lg group cursor-pointer">
