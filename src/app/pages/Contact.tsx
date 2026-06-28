@@ -227,7 +227,7 @@ export function Contact() {
               </div>
 
               {/* Map Placeholder */}
-              <div className="mt-8 bg-gray-200 rounded-lg h-64 flex items-center justify-center" style="background-image: url(https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F3671e992ea3e41e99dd5d1cec3dddb82); background-repeat: no-repeat; background-position: center; background-size: cover;">
+              <div className="mt-8 bg-gray-200 rounded-lg h-64 flex items-center justify-center" style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F3671e992ea3e41e99dd5d1cec3dddb82)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
               </div>
             </div>
           </div>
