@@ -3,7 +3,7 @@ import { X, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 // ─── Change this to Tatiana's WhatsApp number (international format, no +) ───
-const WHATSAPP_NUMBER = '34123456789';
+const WHATSAPP_NUMBER = '34656272786';
 // ─────────────────────────────────────────────────────────────────────────────
 
 const WA_ICON = (

@@ -58,9 +58,20 @@ export function Home() {
 
       {/* About Section */}
       <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl mb-6">{t.aboutTitle}</h2>
-          <p className="text-xl text-gray-700 leading-relaxed">{t.aboutText}</p>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl mb-12 text-center">{t.aboutTitle}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <ImageWithFallback
+                src="https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F4b22c656b03e4faa96e0063617baee23"
+                alt="Aleksandra Dolgaia"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <p className="text-xl text-gray-700 leading-relaxed">Soy una fotógrafa profesional de Castellón de la Plana apasionada por capturar momentos únicos. También ofrezco servicios de pintacaras para eventos infantiles y diseño gráfico personalizado. Mi objetivo es hacer que cada proyecto sea especial y memorable.</p>
+            </div>
+          </div>
         </div>
       </section>
 

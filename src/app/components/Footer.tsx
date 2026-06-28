@@ -1,4 +1,4 @@
-import { Camera, Instagram, Facebook, Mail } from 'lucide-react';
+import { Camera, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export function Footer() {
@@ -13,7 +13,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Camera className="size-8 text-pink-500" />
-              <span className="text-xl font-semibold">Studio Art</span>
+              <span className="text-xl font-semibold">ADolgaia Art</span>
             </div>
             <p className="text-gray-400">
               {t.heroSubtitle}
@@ -35,32 +35,29 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{t.followMe}</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://instagram.com/adartfotografia"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram className="size-5" />
               </a>
               <a
-                href="#"
+                href="https://facebook.com/ADartfoto"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook className="size-5" />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
-                aria-label="Email"
-              >
-                <Mail className="size-5" />
               </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Studio Art. {t.allRightsReserved}</p>
+          <p>© {currentYear} ADolgaia Art. {t.allRightsReserved}</p>
         </div>
       </div>
     </footer>

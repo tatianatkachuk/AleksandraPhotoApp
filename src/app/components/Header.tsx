@@ -30,7 +30,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <Camera className="size-8 text-pink-600" />
-            <span className="text-xl font-semibold text-gray-900">Studio Art</span>
+            <span className="text-xl font-semibold text-gray-900">ADolgaia Art</span>
           </Link>
 
           {/* Desktop Navigation */}

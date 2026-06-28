@@ -50,7 +50,7 @@ export const translations = {
     
     // Contact Page
     contactTitle: 'Contacto',
-    contactIntro: 'Ponte en contacto conmigo para discutir tu proyecto',
+    contactIntro: 'Ponte en contacto conmigo para hablar sobre tu proyecto :)',
     nameLabel: 'Nombre',
     emailLabel: 'Email',
     serviceLabel: 'Servicio de Interés',
