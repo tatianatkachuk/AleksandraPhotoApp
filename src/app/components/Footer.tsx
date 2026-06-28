@@ -35,7 +35,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{t.followMe}</h3>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/adartfotografia"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Instagram"
                 target="_blank"
@@ -44,7 +44,7 @@ export function Footer() {
                 <Instagram className="size-5" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/ADartfoto"
                 className="p-2 bg-gray-800 rounded-full hover:bg-pink-600 transition-colors"
                 aria-label="Facebook"
                 target="_blank"
