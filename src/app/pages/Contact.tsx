@@ -172,7 +172,7 @@ export function Contact() {
                   </div>
 
                   {/* Hidden field — sends to Aleksandra's inbox */}
-                  <input type="hidden" name="to_email" value="ArtFotoSanya@gmail.com" />
+                  <input type="hidden" name="to_email" value="tatiana.tkachuk.upc@gmail.com" />
 
                   <button
                     type="submit"
