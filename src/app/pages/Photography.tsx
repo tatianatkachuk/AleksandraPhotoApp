@@ -49,6 +49,7 @@ export function Photography() {
       {/* Services Grid */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl text-center mb-12">{t.servicesTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service) => {
               const Icon = service.icon;
@@ -85,8 +86,6 @@ export function Photography() {
       {/* Portfolio Preview */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl text-center mb-12">{t.servicesTitle}</h2>
-          
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeSUyMHBvcnRyYWl0JTIwc2Vzc2lvbnxlbnwxfHx8fDE3ODI2NjcwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
