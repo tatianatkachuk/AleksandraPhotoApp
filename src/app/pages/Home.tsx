@@ -63,7 +63,7 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=400"
+                src="https://cdn.builder.io/api/v1/image/assets%2F3704f12f5c374a82ae882316ddf5d958%2F4b22c656b03e4faa96e0063617baee23"
                 alt="Aleksandra Dolgaia"
                 className="w-full rounded-lg shadow-lg"
               />
